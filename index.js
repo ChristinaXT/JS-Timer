@@ -1,5 +1,5 @@
 class Timer {
-  constructor() {
+  constructor(durationInput,) {
 
   }
 }
