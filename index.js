@@ -26,4 +26,6 @@ const colors = {
     console.log(this);
   }
 };
-colors.printColor();
+const randomObject = {
+  
+}
