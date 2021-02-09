@@ -25,3 +25,5 @@ const printThis = function() {
   console.log(this);
 
 }
+
+printThis.call({ color: 'red' });
