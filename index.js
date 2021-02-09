@@ -21,9 +21,10 @@ const pauseButton = document.querySelector('#pause');
 const timer = new Timer(durationInput, startButton, pauseButton);
 // timer.start();
 
+
 const colors = {
   printColor() {
-
+   console.log(this);
     const printThis = () => {
       console.log(this);
     }
