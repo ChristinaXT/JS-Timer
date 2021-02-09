@@ -31,3 +31,5 @@ const colors = {
     printThis();
   }
 };
+
+colors.printColor();
