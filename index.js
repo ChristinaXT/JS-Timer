@@ -27,5 +27,6 @@ const colors = {
   }
 };
 const randomObject = {
-  
-}
+  a: 1
+};
+randomObject.printColor = colors.printColor;
