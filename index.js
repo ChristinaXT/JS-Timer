@@ -9,8 +9,12 @@ class Timer {
 
 
 
-  start() {
-    console.log(this);
+  start = () => {
+    this.importantMethodToCall();
+  }
+
+  importantMethodToCall() {
+    console.log('IMPORTANT THING WAS DONE!!!');
   }
 }
 
