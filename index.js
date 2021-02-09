@@ -30,3 +30,4 @@ const randomObject = {
   a: 1
 };
 randomObject.printColor = colors.printColor;
+randomObject.printColor();
