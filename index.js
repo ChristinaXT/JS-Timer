@@ -23,6 +23,7 @@ const timer = new Timer(durationInput, startButton, pauseButton);
 
 const colors = {
   printColor() {
-    
+    console.log(this);
   }
-}
+};
+colors.printColor();
