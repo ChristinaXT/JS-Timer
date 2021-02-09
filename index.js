@@ -26,4 +26,4 @@ const printThis = function() {
 
 }
 
-printThis.call({ color: 'red' });
+printThis.apply({ color: 'red' });
