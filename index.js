@@ -12,10 +12,6 @@ class Timer {
   start = () => {
     this.importantMethodToCall();
   };
-
-  importantMethodToCall() {
-    console.log('IMPORTANT THING WAS DONE!!!');
-  }
 }
 
 const durationInput = document.querySelector('#duration');
