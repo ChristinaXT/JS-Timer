@@ -4,7 +4,7 @@ class Timer {
     this.startButton = startButton;
     this.pauseButton = pauseButton;
 
-    this.startButton.addEventListener('click', this.start.bind(this));
+    this.startButton.addEventListener('click', this.start);
   }
 
 
