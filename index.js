@@ -9,7 +9,7 @@ class Timer {
 
 
 
-  start() {
+  start = () => {
     this.importantMethodToCall();
   };
 
