@@ -9,8 +9,8 @@ class Timer {
 
 
 
-start = () => {};
-   setInterval(this.tick, 1000)
+start = () => {
+   setInterval(this.tick, 1000);
 };
 
   tick = () => {
