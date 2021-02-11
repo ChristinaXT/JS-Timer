@@ -11,12 +11,11 @@ class Timer {
 
 start = () => {
   this.tick();
-  const timer = setInterval(this.tick, 1000);
-  clearInterval(timer);
+  this.timer = setInterval(this.tick, 1000);
 };
 
 pause = () => {
-  clearInterval();
+  clearInterval(this.timer);
 };
 
   tick = () => {
