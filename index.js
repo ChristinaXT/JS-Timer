@@ -15,6 +15,10 @@ start = () => {
   clearInterval(timer);
 };
 
+pause = () => {
+  clearInterval();
+};
+
   tick = () => {
     console.log('tick');
   }
