@@ -10,6 +10,10 @@ class Timer {
 
 
   start = () => {};
+
+};
+
+  
 }
 
 const durationInput = document.querySelector('#duration');
