@@ -20,7 +20,7 @@ pause = () => {
 
   tick = () => {
     console.log('tick');
-  }
+  };
 }
 
 const durationInput = document.querySelector('#duration');
