@@ -9,8 +9,8 @@ class Timer {
 
 
 
-  start = () => {};
-
+start = () => {};
+   setInterval(this.tick, )
 };
 
   tick = () => {
