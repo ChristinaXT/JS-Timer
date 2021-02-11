@@ -12,7 +12,7 @@ class Timer {
 start = () => {
   this.tick();
   const timer = setInterval(this.tick, 1000);
-  console.log(timer);
+  clearInterval();
 };
 
   tick = () => {
