@@ -13,7 +13,9 @@ class Timer {
 
 };
 
-  
+  tick = () => {
+    
+  }
 }
 
 const durationInput = document.querySelector('#duration');
