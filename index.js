@@ -14,7 +14,7 @@ class Timer {
 };
 
   tick = () => {
-    
+    console.log('tick');
   }
 }
 
