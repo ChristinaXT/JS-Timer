@@ -16,7 +16,6 @@ start = () => {
 
 pause = () => {
   clearInterval(this.interval);
-
 };
 
   tick = () => {
