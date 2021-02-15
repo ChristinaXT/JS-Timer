@@ -17,7 +17,6 @@ start = () => {
 pause = () => {
   clearInterval(this.interval);
 };
-
   tick = () => {
     console.log('tick');
   };
