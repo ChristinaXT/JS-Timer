@@ -25,7 +25,6 @@ pause = () => {
 
 
 
-
   tick = () => {
     console.log('tick');
   };
