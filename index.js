@@ -14,7 +14,6 @@ start = () => {
   this.interval = setInterval(this.tick, 1000);
 
 
-
 };
 
 pause = () => {
