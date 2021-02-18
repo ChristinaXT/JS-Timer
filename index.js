@@ -23,7 +23,7 @@ pause = () => {
   };
 
   get timeRemaining() {
-    
+    return parseFloat(this.durationInput.value);
   }
 }
 
