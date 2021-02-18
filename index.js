@@ -13,6 +13,9 @@ class Timer {
 
 
 start = () => {
+  if (this.onStart){
+    this.onStart();
+  }
   this.tick();
   this.interval = setInterval(this.tick, 1000);
 };
