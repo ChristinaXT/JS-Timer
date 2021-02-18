@@ -18,6 +18,8 @@ pause = () => {
   clearInterval(this.interval);
 };
   tick = () => {
+    if (this.timeRemaining)
+
     this.timeRemaining = this.timeRemaining - 1;
   };
 
