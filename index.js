@@ -19,7 +19,7 @@ pause = () => {
 };
   tick = () => {
     const timeRemaining = this.timeRemaining;
-    this.durationInput.value = timeRemaining - 1;
+    this.timeRemaining = timeRemaining - 1;
   };
 
   get timeRemaining() {
