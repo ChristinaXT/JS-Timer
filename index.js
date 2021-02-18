@@ -18,7 +18,7 @@ pause = () => {
   clearInterval(this.interval);
 };
   tick = () => {
-    console.log('tick');
+    const timeRemaining = this.durationInput.value;
   };
 }
 
