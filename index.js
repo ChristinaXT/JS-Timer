@@ -18,7 +18,9 @@ pause = () => {
   clearInterval(this.interval);
 };
   tick = () => {
-    if (this.timeRemaining)
+    if (this.timeRemaining <= 0) {
+      this.pause();
+    }
 
     this.timeRemaining = this.timeRemaining - 1;
   };
