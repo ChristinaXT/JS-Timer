@@ -20,9 +20,9 @@ pause = () => {
   tick = () => {
     if (this.timeRemaining <= 0) {
       this.pause();
-    }
-
-    this.timeRemaining = this.timeRemaining - 1;
+    } else {
+      this.timeRemaining = this.timeRemaining - 1;
+    }  
   };
 
   get timeRemaining() {
