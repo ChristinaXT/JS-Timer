@@ -30,6 +30,9 @@ pause = () => {
       this.pause();
     } else {
       this.timeRemaining = this.timeRemaining - 1;
+      if (this.onTick) {
+        this.onTick();
+      }
     }
   };
 
