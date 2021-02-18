@@ -21,6 +21,10 @@ pause = () => {
     const timeRemaining = parseFloat(this.durationInput.value);
     this.durationInput.value = timeRemaining - 1;
   };
+
+  get timeRemaining() {
+    
+  }
 }
 
 const durationInput = document.querySelector('#duration');
