@@ -3,6 +3,9 @@ class Timer {
     this.durationInput = durationInput;
     this.startButton = startButton;
     this.pauseButton = pauseButton;
+    if (callbacks) {
+      
+    }
 
     this.startButton.addEventListener('click', this.start);
     this.pauseButton.addEventListener('click', this.pause);
