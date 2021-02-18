@@ -5,6 +5,7 @@ class Timer {
     this.pauseButton = pauseButton;
     if (callbacks) {
       this.onStart = callbacks.onStart;
+      this.onTick = callbacks.onTick;
     }
 
     this.startButton.addEventListener('click', this.start);
