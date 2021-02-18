@@ -18,7 +18,7 @@ pause = () => {
   clearInterval(this.interval);
 };
   tick = () => {
-    const timeRemaining = this.durationInput.value;
+    const timeRemaining = parseFloat(this.durationInput.value);
   };
 }
 
