@@ -9,7 +9,7 @@ circle.setAttribute('stroke-dasharray', perimeter);
 
 let currentOffset = 0;
 const timer = new Timer(durationInput, startButton, pauseButton, {
-  onStart() {
+  onStart(totalDuration) {
     console.log('Timer started');
   },
   onTick(timeRemaining) {
