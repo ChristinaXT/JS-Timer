@@ -1,4 +1,4 @@
 #JS-Timer
 
 
-![img](https://imgur.com/teUANbw)
+![img](https://i.imgur.com/teUANbw.png)
