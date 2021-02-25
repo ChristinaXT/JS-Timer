@@ -34,7 +34,7 @@ pause = () => {
     } else {
       this.timeRemaining = this.timeRemaining - .05;
       if (this.onTick) {
-        this.onTick();
+        this.onTick(this.timeRemaining);
       }
     }
   };
